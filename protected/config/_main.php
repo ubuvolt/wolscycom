@@ -56,8 +56,8 @@ return array(
 		'db'=>array(
 			'connectionString' => 'mysql:host=localhost;dbname=wolscy_com',
 			'emulatePrepare' => true,
-			'username' => 'wolscy_wolscy',
-			'password' => 'hertiet01',
+			'username' => '*********',
+			'password' => '*********',
 			'charset' => 'utf8',
 		),
 
