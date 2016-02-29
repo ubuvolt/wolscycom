@@ -1,0 +1,73 @@
+/* 
+    Created on : 22-Jun-2014, 23:08:18
+    Author     : volt
+*/
+
+html {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;}
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+    width: 1004px;
+    overflow: auto;}
+
+#header {
+    width: 100%;
+    height: 55px;
+    float: none;
+    margin-bottom: 5px;
+    padding-top: 3px;
+    margin-top: 5px;
+    text-align: center;}
+
+#header img {
+    width: 50px; 
+    height: 50px; 
+    border: black 1px solid;}
+
+#header img:hover{
+    width: 60px;}
+
+
+#menu{
+    width: 100%;
+    height: 35px;
+    float: left;
+    background-color: #FFF;
+    margin-bottom: 5px;}
+
+ul1,ul3, li1, li3 {
+    float: center;}
+
+ul2, li2 {
+    float: left;}
+
+ul2, ul2, li2, ul1, li1, ul3, li3 {
+    display: block;
+    list-style: none;}
+
+ul2, ul1, ul3 {position: absolute;}
+
+p.article, p.title, p.subtitle, p.sub2title { 
+	font-size: 28px;
+	font-style: italic;
+	text-align: left;
+	color: maroon;
+	font-weight: bold;}
+
+p.title { 
+	font-size: 20px;}
+
+p.subtitle { 
+	font-size: 18px;}
+
+p.sub2title { 
+	font-size: 16px;}
+
+p.menu a:link, p.menu a:visited, p.menu a:hover {
+	font-size: 14px;}

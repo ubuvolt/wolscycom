@@ -1,0 +1,137 @@
+/* 
+    Created on : 22-Jun-2014, 23:08:18
+    Author     : volt
+*/
+img {
+	border-width: 2px;
+	border-style: solid;
+	border-color: #000 #000 #000 #000;
+}	
+#content {
+	width: 70%;
+	float: left;
+	overflow: hidden;
+	background-color: #FFF;
+        margin-left: 10px;}
+
+ul2 a:link, ul2 a:visited, ul1 a:link, ul1 a:visited {
+	font-size: 15px;
+	text-decoration: none;
+	margin: 1px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #365 #dfe #dfe #365 ;
+	display: block;
+	width: 100px;
+	text-align: center;
+	font-weight: bold;
+	color: #000;
+	background-color: #BBB;}
+
+ul2 a:hover, ul1 a:hover {
+	border-width: 2px;
+	border-style: solid;
+	margin: 1px;
+	border-color: #dfe #365 #365 #dfe;
+	font-size: 15px;
+	color: #FFF;
+	background-color: #BBB;}
+	
+ul3 a:link, ul3 a:visited, ul3 a:link, ul3 a:visited {
+	font-size: 13px;
+	margin: 1px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #365 #dfe #dfe #365 ;
+	text-decoration: none;
+	display: block;
+	width: 90px;
+	text-align: center;
+	font-weight: bold;
+	color: #000;
+	background-color: #BBB;}
+
+ul3 a:hover, ul3 a:hover {
+	font-size: 13px;
+	margin: 1px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #dfe #365 #365 #dfe;
+	color: #FFF;
+	background-color: #BBB;}	
+
+p.text, p.code, p.rescode, p.menu, li.text, p.menuTOP{ 
+	font-size: 14px;
+	font-style: normal;
+	color: #000000;
+	white-space: pre;}
+
+li.text { 
+	font-style: italic;}
+
+p.code { 
+	background-color: #CECDCD;}
+
+p.rescode { 
+	background-color: #DDDDDD;}
+
+p.menuTOP a:link, p.menu a:link{
+	font-size: 15px;
+	text-decoration: none;
+	color: #000;}
+	
+p.menuTOP a:visited, p.menu a:visited{
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000;} 
+
+p.menuTOP a:hover, p.menu a:hover{
+	font-size: 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #000;}
+	
+#PosTopic, #PosMesssage, #PosPoster {
+	font-weight:bold;
+	border-style: groove ridge inset outset;
+	color: #000;
+	white-space: pre;
+	font-size: 14px;
+	background-color: #CECDCD;
+        max-width: 700px;}
+	
+#PosMesssage{
+	font-weight:normal;
+	border-style: groove ridge inset outset;
+	color: #000;
+	white-space: pre;
+	font-size: 12px;
+	background-color: #FFF;
+	padding: 10px 10px 10px 10px;
+        max-width: 700px;}
+	
+#PosPoster {
+	font-weight:normal;
+	border-style: groove ridge inset outset;
+	color: #000;
+	white-space: pre;
+	font-size: 12px;
+	font-style: italic;
+	background-color: #CECDCD;
+	text-align: right;
+	margin: 0px 0px 10px 0px;
+	padding: 0px 20px 0px 0px;
+        max-width: 700px;}
+
+/*inne*/
+#NewsLastNew {
+    width: 20%;
+    height: auto;
+    
+    background-color: #CECDCD;
+    
+    position: static;
+    float: left;
+    margin-left: 5px;
+}

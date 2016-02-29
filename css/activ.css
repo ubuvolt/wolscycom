@@ -1,0 +1,154 @@
+/* 
+    Created on : 22-Jun-2014, 23:08:18
+    Author     : volt
+*/
+#header-img
+{
+    	border-width: 1px;
+	border-style: solid;
+	border-color: red;
+        padding: 0px;
+        margin: 0px;
+}
+#nav {
+	width: 150px;
+	height: 850px;
+	float: left;
+	overflow: hidden;}
+
+#content {
+	width: 854px;
+	float: left;
+	background-color: #DDDDDD;}
+	
+ul2 a:link, ul2 a:visited, ul1 a:link, ul1 a:visited {
+	font-size: 15px;
+	text-decoration: none;
+	margin: 0px 0px 2px 0px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #365 #dfe #dfe #365 ;
+	display: block;
+	width: 100px;
+	text-align: center;
+	font-weight: bold;
+	color: #000;
+	background-color: #BBB;}
+
+ul2 a:hover, ul1 a:hover {
+	border-width: 2px;
+	border-style: solid;
+	margin: 0px 0px 2px 0px;
+	border-color: #dfe #365 #365 #dfe;
+	font-size: 15px;
+	color: #FFF;
+	background-color: #BBB;}	
+	
+ul3 a:link, ul3 a:visited, ul3 a:link, ul3 a:visited {
+	font-size: 13px;
+	margin: 0px 0px 2px 0px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #365 #dfe #dfe #365 ;
+	text-decoration: none;
+	display: block;
+	width: 90px;
+	text-align: center;
+	font-weight: bold;
+	color: #000;
+	background-color: #BBB;}
+
+ul3 a:hover, ul3 a:hover {
+	font-size: 13px;
+	margin: 0px 0px 2px 0px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #dfe #365 #365 #dfe;
+	color: #FFF;
+	background-color: #BBB;}	
+	
+p.text, p.code, p.rescode, p.menu, li.text, p.menuTOP{ 
+	font-size: 14px;
+	font-style: normal;
+	color: #000;
+	white-space: pre;
+	background-color: #EEE;
+	margin: 0px 0px 10px 0px;
+	padding: 5px 5px 5px 5px;}
+	
+li.text { 
+	font-style: italic;}
+
+p.code { 
+	background-color: #CECDCD;
+	margin: 0px 0px 10px 0px;
+	padding: 5px 5px 5px 5px;}
+
+p.rescode { 
+	background-color: #DDD;
+	margin: 0px 0px 10px 0px;
+	padding: 5px 5px 5px 5px;}
+
+p.menuTOP a:link, p.menu a:link{
+	font-size: 15px;
+	text-decoration: none;
+	color: #000;}
+	
+p.menuTOP a:visited, p.menu a:visited{
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000;} 
+
+p.menuTOP a:hover, p.menu a:hover{
+	font-size: 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #000;}
+	
+/*inne*/
+
+p.poster 
+{
+    color: #000;
+    white-space: pre;
+    font-size: 12px;
+    font-style: italic;
+    background-color: #CECDCD;
+}
+
+.redir-top-house
+{   
+    width: 1004px;
+    height: 300px;
+    float: bottom;
+}
+
+.redir-top-seper
+{
+    width: 1000px;
+    height: 140px;
+    float: bottom;
+}
+
+.redir-left-house
+{   
+    width: 502px;
+    height: 325px;
+    float: left;
+}
+
+.redir-right-house
+{
+    width: 502px;
+    height: 325px;
+    float: right;
+}
+
+.redir-top-text
+{
+    margin-left: 30%;
+    width: 400px;
+    height: 150px;
+    float: bottom;
+}
